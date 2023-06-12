@@ -11,8 +11,8 @@ The model is load on client-side using tensorflowjs so there's no need of server
     pnpm dev
 
 ## Demo
-![image](https://github.com/SupeemAFK/Brain-Tumor-Classification-Client/assets/83326313/cb1d39d5-7e96-4eb9-b282-dee66ad42013)
-![image](https://github.com/SupeemAFK/Brain-Tumor-Classification-Client/assets/83326313/02af8347-f088-471a-baa8-ac039d5bde98)
+![image](https://github.com/SupeemAFK/Brain-Tumor-Classification-Client/assets/83326313/cb88a2af-df7b-4c7a-84c8-b7e51ca8ce61)
+![image](https://github.com/SupeemAFK/Brain-Tumor-Classification-Client/assets/83326313/911d2f8e-5713-45ca-bf77-bc0bf980b984)
 
 ## Training processes
 The training processes can view on this [repository](https://github.com/SupeemAFK/Brain-Tumor-MRI-Classification)
