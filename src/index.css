@@ -4,10 +4,10 @@
 @tailwind utilities;
 
 .upload-btn-main { 
-    @apply grayscale p-5 bg-no-repeat top-0 left-0  hover:filter-none text-3xl flex flex-col items-center cursor-pointer bg-gray-500 border-2 border-gray-300 rounded-md text-gray-300 transition-all
+    @apply shadow-md p-5 top-0 left-0  hover:filter-none text-3xl flex flex-col items-center cursor-pointer border-2 border-blue-800 rounded-md text-blue-800 hover:bg-blue-800 hover:text-white transition-all
 }
 
 
 .upload-btn-secondary {
-    @apply flex items-center cursor-pointer border-2 border-gray-500 rounded-md p-2 text-gray-500 hover:border-white hover:text-white transition-all
+    @apply shadow-md flex items-center cursor-pointer rounded-md p-2 border-2 border-blue-800 text-blue-800 hover:bg-blue-800 hover:text-white transition-all
 }

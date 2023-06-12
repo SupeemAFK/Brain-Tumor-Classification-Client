@@ -67,7 +67,7 @@ function App() {
   }
 
   return (
-    <div className='flex flex-col justify-center items-center h-screen bg-slate-900'>
+    <div className='flex flex-col justify-center items-center h-screen'>
       <div className='flex-[0.2] flex-col flex justify-center items-center w-full'>
         <label className={`${images.length == 0 ? "upload-btn-main" : "upload-btn-secondary"}`}>
           {images.length == 0 ? "อัพโหลดรูปภาพ" : "อัพโหลดรูปภาพใหม่"}
@@ -79,9 +79,9 @@ function App() {
       {images.length > 0 && (
         <div className='flex-[0.8] flex justify-center items-center overflow-y-auto flex-wrap w-full p-5'>
           {images.map(img => (
-            <div key={img.id} className='mx-1 mt-3 flex flex-col items-center border-2 border-slate-200 bg-slate-200 rounded-lg p-3'>
+            <div key={img.id} className='mx-1 mt-3 flex flex-col items-center shadow-md border-[1px] border-[#e6e6e6] rounded-lg p-3'>
               <div>
-                <img className='w-52 h-52' src={img.src} alt="image" />
+                <img className='w-52 h-52 rounded-md' src={img.src} alt="image" />
               </div>
 
               <div className='w-44 h-44 mt-2'>
